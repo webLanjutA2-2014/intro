@@ -1,0 +1,53 @@
+1.git init : untuk menginisialisasi repositiry Git.Git memberitahukan bahwa di direktori octobox sekarang memiliki repository kosong di /.git/
+
+2.git status : untuk melihat status/keadaan project saat ini.
+
+3.pada repository octobox telah dibuat file bernama octocat.txt untuk melihat bagaimana status repositiry telah berubah jalankan perintah git status
+
+4.Git mengatakan file bernama octocat.txt tidak terlacak,itu berarti git melihat bahwa file octocat.txt adalah file baru.untuk memberitahu git untuk mulai melacak perubahan yg dibuat untuk octocat.txt maka kita perlu menambahkannya ke area stage dengan menjalankan perintah git add octocat.txt
+
+5.Git sekarang telah melacak file octocat.txt selanjutnya periksa perubahan dengan menjalankan perintah git status
+
+6.$git commit -m "Add cute octocat story" untuk menyimpan perubahan stage
+
+7.Wildcard dapat digunakan jika ingin menambahkan banyak file dari jenis yg sama kita jalankan perintah git add '*.txt'
+
+8.Setelah menambahkan semua file teks ke area stage kemudian jalankan git status untuk melihat apa yg akan anda lakukan kemudian jalankan git commit -m 'Add all the octocat.txt filea ' muntuk melihat semua perubahan yg terjadi
+
+9.git log : untuk melihat riwayat perubahan apa saja yg telah kita buat
+
+10.git remote add origin https : // github.com/try-git/try git.git perintah ini mengambil nama remote dan URL repository.untuk push repo lokal kita ke server github.
+
+11.perintah push memberitahu git dimana kita harus menempatkan commit,kita jalankan perintah git push -u origin master.
+
+12.kita bisa memriksa perubahan pada repository github dengan menjalankan git pull origin master.di terminal dijelaskan bahwa terjadi perubahan pada yellow-octocat.txt
+
+13.git diff HEAD : untuk melihat cmmit yang terakhir kita gunakan dan head untuk menunjuk nilai
+
+14.git add octofamily/octodog.txt : menambahkan file octodog.txt ke octofamily
+
+15.git diff --staged : untuk melihat perubahan yg terjadi bahwa file octodog.txt telah dibuat.
+
+16.git reset octofamily/octodog.txt : untuk menghapus stagging file 
+
+17.git checkout -- octocat.txt : untuk mengembalikan perintah terakhir
+
+18.git branch clean_up : untuk back up sementara
+
+19.git checkout clean_up : untk memindah data dari checkout ke clean_up
+
+20.git rm '*.txt' : untuk menghapus semua file yang berekstensi .txt
+
+21.git commit -m "Remove all the cats" : untuk melepas semua status
+
+22.git checkout master : pindah ke branch master
+
+23.git merge clean_up : untuk menggabungkan perubahan dari branch clean_up ke branch master
+
+24.git branch -d clean_up : untuk menghapus branch clean_up
+
+25.git push : untuk push semua pekerjaan yg telah dilakukan di repository remote
+
+git merge clean_up :untuk menggabungkan file dari clean_up ke master
+
+git branch -d clean_up : untuk mendelete branch clean up
