@@ -1,0 +1,43 @@
+1 git init		= menginisialisasi repository
+
+2 git Status		= menampilkan status
+
+3 git add octotac.txt	= menambahkan file tsb ke staging area
+
+4 git commit - in "add auto octotat story	= commit ke remote repository
+
+5 git add "*.txt				= menambahkan file ke staging area
+
+6 git commit - in "add auto octotat.txt file = menambahkan semua file ke repository
+
+7 git log					= menampilkan history git
+
+8 git remote add origin http://github.com/...../git = menambahkan remote repository
+
+9 git push -u origin master = push file  ke repository master 
+
+10 git pull origin master =pull file ke repository
+
+11 git diff head =
+
+12 git add octofamily/octoday.txt = menambahkan file di direktori
+
+13 git diff stage =
+
+14 git reset octofamily/octoday.txt= menghapus staging file
+
+15 git branch learn up =
+
+16 git checkout clean up=
+
+17 git RM.txt =
+
+18 git commit -m "remove all the cats = melepas semua status
+
+19 git checkout master= menghapus semua file .txt
+
+20 git merge clean up =
+
+21 git branch -d clean -up = backup sementara
+
+22 git push = push file ke repository
