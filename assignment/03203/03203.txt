@@ -1,0 +1,23 @@
+Git init : untuk menginisialisasi repositori git, sama aja kita membuat repositori Git yang kosong di in.git/.
+
+Git status : melihat perubahan yang tejadi dengan git status
+Git add nama_file : memberi tahu kepasd git tentang perubahan, untuk menambahkan file ke dalam staging area  shg git bisa melacat perubahan area
+Git commit -m "text" :  menyimpan perubahan stage 
+Git add '*.txt' : untukk menambahkan file ke stagging area
+Git log : untuk melihat catatan aktifitas yang telah kita lakukan
+Git remote add origin https://github.com/try-git/try_git.git : untuk push local repo ke github server
+Push : upload local server ke server github
+-u : untuk mengingat parameter
+
+Git pull origin master :ngecek perubahan di github repositorY dan pull down perubahan yang baru
+Git diff HEAD : untuk melihat cmmit yang terakhir kita gunakan dan head untuk menunjuk nilai
+Git reset octofamily/octodog.txt : untuk menghapus stagging file 
+Git checkout -- octocat.txt : untuk mengembalikan perintah terakhir
+Git branch clean_up :  back up sementara
+Git checkout clean_up : untk memindah data dari checkout ke clean_up
+Git rm '*.txt' :  menghapus semua file yang berekstensi .txt
+Git commit -m "Remove all the cats" : untuk melepas semua status
+Git checkout master : pindah ke branch master
+Git merge clean_up : menggabungkan file dari clean_up ke master
+Git branch -d clean_up :  mendelete branch clean up
+
