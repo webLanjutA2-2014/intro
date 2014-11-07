@@ -1,0 +1,59 @@
+1. git init 
+--> di gunakan untuk menginisialisasi repositori git agarproject kita dapat di atur oleh git, maka kita perlu melakukan inisialisai git untuk mengatur dan 		mengontrol project kita.
+
+2. git process/status 
+--> untuk mengetahui status atau kondisi di dalam repositori yang telah dibuat
+
+3. git add '*.txt' 
+--> untuk menambahkan file ke stagging area
+
+4. git add nama_file 
+--> untuk memberi tahu kepasd git tentang perubahan, untuk menambahkan file ke dalam staging area  shg git bisa melacat perubahan area
+
+5. git commit -m "text" 
+--> untuk menyimpan perubahan stage 
+
+6. git log 
+--> untuk melihat catatan aktifitas yang telah kita lakukan
+
+7. git remote add origin https
+--> //github.com/try-git/try_git.git : untuk push local repo ke github server
+
+8. push 
+--> upload local server ke server github
+
+9. -u 
+--> untuk mengingat parameter
+ 
+10. git pull origin master 
+--> untuk mengecek perubahan di github repository kita dan pull down perubahan yang baru
+
+11. git diff HEAD 
+--> untuk melihat cmmit yang terakhir kita gunakan dan head untuk menunjuk nilai
+
+12. git reset octofamily/octodog.txt 
+--> untuk menghapus stagging file 
+
+13. git checkout -- octocat.txt 
+--> untuk mengembalikan perintah terakhir
+
+14. git branch clean_up 
+--> untuk back up sementara
+
+15. git checkout clean_up 
+--> untk memindah data dari checkout ke clean_up
+
+16. git rm '*.txt' 
+--> untuk menghapus semua file yang berekstensi .txt
+
+17. git commit -m "Remove all the cats" 
+--> untuk melepas semua status
+
+18. git checkout master 
+--> pindah ke branch master
+
+19. git merge clean_up 
+--> untuk menggabungkan file dari clean_up ke master
+
+20. git branch -d clean_up 
+--> untuk mendelete branch clean up
