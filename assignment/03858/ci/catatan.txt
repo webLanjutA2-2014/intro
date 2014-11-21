@@ -1,0 +1,2 @@
+konfigurasi url:
+set config | routers.php diganti dengan nama controller yang akan digunakan sebagai default controller
